@@ -9,7 +9,7 @@ Plotting statistical transformations (the Critics vs Audience Ratings for the mo
 ![First plot](/plots/plot1.png)
 
 Using boxplots for better statistical insights
-![Second plot](/plots/plot2.png)
+![Second Plot](/plots/plot2.png)
 
 Using a Jitter plot along with box plot to see the data points
 ![Third plot](/plots/plot3.png)
