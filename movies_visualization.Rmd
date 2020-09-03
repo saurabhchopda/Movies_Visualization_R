@@ -1,0 +1,41 @@
+Import data and load packages
+The IMDB ratings dataset is used
+```{r}
+library(ggplot2)
+setwd("") #set your working directory
+data <- read.csv('MovieRatings.csv') #import the csv file of the dataset
+
+```
+
+Change name of the columns
+```{r}
+colnames(data) <- c("Film", "Genre", "CriticsRating", "AudienceRating", "BudgetMillions", "Year")
+
+```
+
+Display the first 6 rows of the dataset
+```{r}
+head(data)
+```
+
+Plot statistical transformations (the Critics vs Audience Ratings for the movies and color by Genre)
+```{r}
+u <- ggplot(data = data, aes(x = CriticsRating, y = AudienceRating, colour = Genre))
+u + geom_point() + geom_smooth(fill = NA)
+```
+
+Using boxplots for better statistical insights
+```{r}
+u <- ggplot(data = data, aes(x = Genre, y = AudienceRating, colour = Genre))
+u + geom_boxplot(size = 1.2)
+```
+
+Using a Jitter plot along with box plot to see the deviation in data points 
+```{r}
+u + geom_boxplot(size = 1.2) + geom_jitter()
+```
+
+Improve the plot by adding transparency
+```{r}
+u + geom_jitter() + geom_boxplot(size = 1.2, alpha = 0.5)
+```
