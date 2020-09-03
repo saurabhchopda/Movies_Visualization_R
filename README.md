@@ -8,8 +8,8 @@ Dataset used : IMDB top movies dataset
 Plotting statistical transformations (the Critics vs Audience Ratings for the movies and color by Genre)
 ![First plot](/plots/plot1.png)
 
-Using boxplots for better statistical insights
 ![Second Plot](/plots/plot2.png)
+Using boxplots for better statistical insights
 
 Using a Jitter plot along with box plot to see the data points
 ![Third plot](/plots/plot3.png)
