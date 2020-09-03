@@ -3,7 +3,7 @@ Visualization of movies ratings.
 
 Dataset used : IMDB top movies dataset
 
-**PLOTS** 
+## **PLOTS** 
 
 Plotting statistical transformations (the Critics vs Audience Ratings for the movies and color by Genre)
 ![First plot](/plots/plot1.png)
