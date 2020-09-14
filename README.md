@@ -1,5 +1,5 @@
 # Visualization of movie ratings in ggplot2
-Visualization of movies ratings.
+Visualization of movies ratings.  
 Dataset used : [IMDB top movies dataset](https://github.com/saurabhchopda/Movies_Visualization_R/blob/master/MovieRatings.csv)
 
 ## **PLOTS** 
